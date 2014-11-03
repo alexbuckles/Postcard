@@ -13,6 +13,7 @@
 		56730DCB1A06840D003A5BB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56730DCA1A06840D003A5BB9 /* Images.xcassets */; };
 		56730DCE1A06840D003A5BB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56730DCC1A06840D003A5BB9 /* LaunchScreen.xib */; };
 		56730DDA1A06840D003A5BB9 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56730DD91A06840D003A5BB9 /* PostcardTests.swift */; };
+		56730DE41A070752003A5BB9 /* Bond Hub Logo - Amazing Experience.png in Resources */ = {isa = PBXBuildFile; fileRef = 56730DE31A070752003A5BB9 /* Bond Hub Logo - Amazing Experience.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		56730DD31A06840D003A5BB9 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56730DD81A06840D003A5BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56730DD91A06840D003A5BB9 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		56730DE31A070752003A5BB9 /* Bond Hub Logo - Amazing Experience.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bond Hub Logo - Amazing Experience.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		56730DC11A06840D003A5BB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				56730DE31A070752003A5BB9 /* Bond Hub Logo - Amazing Experience.png */,
 				56730DC21A06840D003A5BB9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56730DE41A070752003A5BB9 /* Bond Hub Logo - Amazing Experience.png in Resources */,
 				56730DC91A06840D003A5BB9 /* Main.storyboard in Resources */,
 				56730DCE1A06840D003A5BB9 /* LaunchScreen.xib in Resources */,
 				56730DCB1A06840D003A5BB9 /* Images.xcassets in Resources */,
