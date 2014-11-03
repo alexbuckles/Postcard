@@ -105,6 +105,15 @@
                                     <rect key="frame" x="66" y="412" width="229" height="49"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qL8-hW-nQp">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="66" y="507" width="184" height="32"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="cLO-Ar-hr0"/>
                                 <exclude reference="TeA-qP-CJz"/>
                                 <exclude reference="jou-CD-Vnb"/>
+                                <exclude reference="qL8-hW-nQp"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="cLO-Ar-hr0"/>
                                 <include reference="TeA-qP-CJz"/>
                                 <include reference="jou-CD-Vnb"/>
+                                <include reference="qL8-hW-nQp"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,6 +142,7 @@
                         <outlet property="enterNameTextField" destination="KUW-hA-1OA" id="z5q-ri-lEQ"/>
                         <outlet property="mailButton" destination="TeA-qP-CJz" id="88Z-K6-6ve"/>
                         <outlet property="messageLabel" destination="jou-CD-Vnb" id="jkB-j5-Kyj"/>
+                        <outlet property="nameLabelTextField" destination="qL8-hW-nQp" id="M9M-5b-wjc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -171,6 +183,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tsQ-DM-kC6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="87" y="160"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ky8-Vs-wrt">
+            <objects>
+                <viewController id="4uU-Fc-P0F" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IuV-cs-LcU"/>
+                        <viewControllerLayoutGuide type="bottom" id="8A0-vU-FpP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lB3-W4-uez">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R8e-OQ-v9v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
